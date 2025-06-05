@@ -8,11 +8,12 @@ struct Index {
     RelativeContainer() {
       Column() {
         Row(){
-          Text('第一页')
+          Text('第一页').fontColor($r('sys.color.ohos_id_color_text_primary'))
           Text('第二页').fontColor(Color.Gray)
           Text('第三页').fontColor(Color.Gray)
           Text('第四页').fontColor(Color.Gray)
-          Button('󰀠',{type :ButtonType.Normal})
+          SymbolGlyph($r('sys.symbol.gearshape'))
+            .fontColor([Color.Black])
         }.justifyContent(FlexAlign.SpaceAround)
         .width('100%')
         Text(this.信息)
