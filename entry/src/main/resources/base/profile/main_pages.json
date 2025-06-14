@@ -1,6 +1,9 @@
 {
   "src": [
     "pages/Index",
-    "pages/中文测试"
+    "pages/文件",
+    "pages/日程",
+    "pages/笔记",
+    "pages/设置"
   ]
 }

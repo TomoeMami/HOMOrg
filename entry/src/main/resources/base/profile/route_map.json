@@ -1,0 +1,33 @@
+{
+  "routerMap": [
+    {
+      "name": "日程",
+      "pageSourceFile": "src/main/ets/pages/日程.ets",
+      "buildFunction": "日程Builder",
+      "data": {
+        "description": "日程页面"
+      }
+    },{
+      "name": "文件",
+      "pageSourceFile": "src/main/ets/pages/文件.ets",
+      "buildFunction": "文件Builder",
+      "data": {
+        "description": "文件页面"
+      }
+    },{
+      "name": "笔记",
+      "pageSourceFile": "src/main/ets/pages/笔记.ets",
+      "buildFunction": "笔记Builder",
+      "data": {
+        "description": "笔记页面"
+      }
+    },{
+      "name": "设置",
+      "pageSourceFile": "src/main/ets/pages/设置.ets",
+      "buildFunction": "设置Builder",
+      "data": {
+        "description": "设置页面"
+      }
+    }
+  ]
+}
